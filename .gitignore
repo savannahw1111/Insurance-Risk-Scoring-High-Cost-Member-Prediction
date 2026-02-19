@@ -1,0 +1,26 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data files (don’t upload big raw data)
+data/raw/
+data/interim/
+data/processed/
+
+# Model artifacts
+models/
+*.pkl
+
+# Logs
+*.log
